@@ -3,6 +3,9 @@ body, html {
   margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url(img/devm.jpeg);
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
 }
 .container {
   width: 360px;
@@ -20,7 +23,8 @@ button {
   outline: none;
 }
 .to-dos {
-  margin-top: 25px;
+  margin-top: 10px;
+  font-size: 1.7em;
 }
 #inputField {
   width: 300px;
